@@ -1,0 +1,5 @@
+```sql
+
+SELECT * FROM Final_Project.`split table for netflix`;
+
+```
