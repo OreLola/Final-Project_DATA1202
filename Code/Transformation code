@@ -1,0 +1,13 @@
+```sql
+
+Select `netflix userbase data`.Country,
+count(case when Age_Group = 'Twenties' then 1 else null end) AS Twenties,
+count(case when Age_Group = 'Thirties' then 1 else null end) AS Thirties,
+count(case when Age_Group = 'Fourties' then 1 else null end) AS Fourties,
+count(case when Age_Group = 'Fifties' then 1 else null end) AS Fifties
+From `netflix userbase data`
+Join `split table for netflix`
+ON `netflix userbase data`.`User ID` = `split table for netflix`.`User ID`	    
+Group by `netflix userbase data`.Country;
+
+```
