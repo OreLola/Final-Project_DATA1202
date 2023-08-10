@@ -26,9 +26,13 @@ DATA TRANSFORMATION
 The first step I carried out here was to create a select statement on the dimension table that was initially loaded, I JOINED my two tables on their common column called User ID and did a count with a case syntax to calculate the number of Netflix subscribers within an age group by their countries. I also did a GROUP BY This clause was done to group the results by the specified Country. The overall purpose of this transformation was to answer the research question and derive the number of subscribers within an age group by countries and the following insights were deduced. 
 
 •	The United States and Canada have the highest user counts across all age groups.
+
 •	Spain also has a substantial user count in all age groups, indicating strong Netflix usage.
+
 •	European countries like the United Kingdom, Germany, France, Spain, and Italy exhibit consistent patterns, with larger user counts in the 'Thirties' and 'Fourties' age groups.
+
 •	Focusing on retaining users in their 'Thirties' and 'Fourties' could be important, as these age groups represent significant portions of the user base.
+
 •	The 'Fifties' age group has relatively lower user counts across all countries. This could imply that older users might not be as engaged with the platform compared to younger users.
 
 DATA LOADING 
@@ -40,12 +44,15 @@ REFLECTIONS
 Learning from the Project:
 
 •	SQL Proficiency: Engaging in this project enhanced my skills in writing SQL queries, especially complex ones involving joins, aggregations, and the creation of views.
+
 •	Data Interpretation: Working with datasets and generating insights helped improve my ability to interpret and draw meaningful conclusions from a random dataset.
+
 •	Data Manipulation: The project reinforced skills in data manipulation, including filtering and grouping.
 
 Challenges:
 
 •	Query Complexity: Working with multiple tables was a little complex and crafting the research question to be answered.
+
 •	Joining Data: I struggled a bit while trying to join my tables, it was a little complex. I was getting multiple outputs at first, so I had to research a lot on how to resolve it online. 
 
 In totality it was a very insightful experience as I was able to put all the SQL learnings from the semester into use and learn from my mistakes.
