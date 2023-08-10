@@ -6,9 +6,13 @@ The dataset provides a snapshot of a sample Netflix userbase, showcasing various
 Research Question- Calculate the number of Netflix subscribers within an age group by their countries and generate insights.
 
 Steps for Dimension and Facts table 
+
 •	The sourced dataset for Netflix userbase was the dimension table. 
+
 •	A split of the main table was done with user ID being the unique identifier and common attribute, the table also included the countries, revenue, and age details. 
+
 •	I went ahead to create age groups on the table. 
+
 -	Ages 20-29 (Twenties) 
 -	Ages 30-39 (Thirties)
 -	Ages 40-49 (Forties) 
